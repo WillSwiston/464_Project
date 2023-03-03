@@ -1,1 +1,2 @@
-Hi! I wasn't aware that this should be going toward our semester project, so I started a personal website. This is the direction I will be going from now on :)
+Semester-long project for CSCE464
+
