@@ -1,0 +1,22 @@
+.about-me-wrapper h1 {
+  text-align: center;
+}
+
+.about-me-inner-wrapper {
+  width: 95vw;
+  margin: auto;
+}
+
+.about-me-inner-wrapper p {
+  font-size: 1.1rem;
+}
+
+.about-me-inner-wrapper img {
+  width: 20em;
+  box-shadow: 10px 10px 17px 0px rgba(0, 0, 0, 0.75);
+}
+
+.about-me-inner-wrapper .text-align {
+  font-size: 2em;
+  text-align: center;
+}

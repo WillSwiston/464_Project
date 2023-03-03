@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  --main-color-background: #333336;
+  --main-color-text: #e8e4d2; 
+  --main-color-cta: #fe6849;
+
+  color: var(--main-color-text);
+  background: var(--main-color-background);
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: var(--main-color-text);
+}
