@@ -16,3 +16,15 @@ a {
   text-decoration: none;
   color: var(--main-color-text);
 }
+
+.dark {
+  --main-color-background: #333336 !important;
+  --main-color-text: #e8e4d2; 
+  --main-color-cta: #fe6849;
+}
+
+.light {
+  --main-color-text: #333336 !important;
+  --main-color-background: #e8e4d2; 
+  --main-color-cta: #fe6849;
+}
