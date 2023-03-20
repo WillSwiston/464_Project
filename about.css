@@ -20,3 +20,8 @@
   font-size: 2em;
   text-align: center;
 }
+
+.img-wrapper {
+  display: flex;
+  justify-content: center;
+}

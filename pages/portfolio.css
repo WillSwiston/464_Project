@@ -15,9 +15,14 @@
   align-items: center;
   justify-content: center;
   gap: 1em;
-  background: green;
+  background: gray;
 }
 
 .skill img {
   width: 6em;
+}
+
+.portfolio-wrapper {
+  width: 95vw;
+  margin: auto;
 }
