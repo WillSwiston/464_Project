@@ -2,7 +2,7 @@
   width: 60vw;
   margin: auto;
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 2em;
 }
@@ -25,4 +25,35 @@
 .portfolio-wrapper {
   width: 95vw;
   margin: auto;
+  padding-bottom: 2em;
+}
+
+.education-inner-wrapper {
+  width: 95vw;
+  margin: auto;
+  padding-top: 2em;
+}
+
+.education-inner-wrapper img {
+  float: left;
+  margin-right: 2em;
+  box-shadow: 10px 10px 17px 0px rgba(0, 0, 0, 0.75);
+}
+
+.education-inner-wrapper p {
+  font-size: 1.3rem;
+}
+
+.work-wrapper {
+  width: 95vw;
+  margin: auto;
+  padding-bottom: 4em;
+  padding-top: 4em;
+}
+
+.work-inner-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
 }
