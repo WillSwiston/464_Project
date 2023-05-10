@@ -29,19 +29,29 @@
   width: 25em;
 }
 
-.submit-button {
-  border: 1px solid var(--main-color-text);
-  background: transparent;
-  font-size: 1.1rem;
-  padding: 1em;
-  margin: 2em;
-  justify-self: flex-end;
-  color: var(--main-color-text);
-  border-radius: 15px;
+.feedback-wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
-.feedback-wrapper {
-	display: flex;
-	align-items: center;
-	flex-direction: column;
+.pair {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+.submit {
+  justify-self: center;
+  align-self: center;
+  background: transparent;
+  color: white;
+  outline: none;
+  border: 1px solid white;
+  padding: 1em;
+}
+
+.submit:hover {
+  background: white;
+  color: black;
 }
